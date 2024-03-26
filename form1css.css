@@ -1,0 +1,107 @@
+body{background-color: rgb(191, 182, 229);}
+li{list-style-type: none;}
+ul{text-transform: uppercase;}
+nav{ display: flex;
+justify-content:right;
+align-items: right;
+gap: 600px;
+width: 100%;
+height: 100%;}
+nav ul {display: flex;
+    justify-content:right;
+    align-items: right;
+    gap:0 35px;
+   font-size: 1.2rem;}
+   li a{color: #005ce6;text-decoration: none;}
+   li a:active{color: #e600cf;}
+.form-box {
+    max-width: 600px;
+    background: #1a5497;
+    overflow: hidden;
+    border-radius: 25px;
+    color: #010101;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    }
+     .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;}
+     /*Form text*/
+    .title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    }
+     .subtitle {
+    font-size: 1rem;
+    color: #131111;
+    } 
+    /*Inputs box*/
+    .form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 1rem 0 .5rem;
+    width: 100%;} 
+    .input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+    } 
+    .form-section {
+    padding: 16px;
+    font-size: .85rem;
+    background-color: #e0ecfb;
+    
+    }
+    .form-section a {
+    font-weight: bold;
+    color: #200a01;
+    transition: color .3s ease;
+    } 
+    .form-section a:hover {
+    color: #005ce6;
+    text-decoration: underline;
+    } 
+    /*Button*/
+    .form button {
+    background-color: #0d62edb2;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;cursor: pointer;
+    transition: background-color .3s ease;
+    } 
+    .form button:hover {
+    background-color: #00c4e6;
+    }
+    .form button:active {
+        background-color: #e6008e;
+        }
+    hr{border-style: dashed;
+border-color: aqua;}
+/*
+.smooth{display: block;
+text-decoration: none;
+text-align: center;
+padding: 1em 2em;
+width: 10em;
+border-radius: 1em;
+color: #fff;
+background-color:       mediumblue;
+transition-property: background-color;
+transition-duration: 0.8s;
+transition-timing-function: linear;
+transition-delay: 0.2s;}
+.smooth:hover, .smooth:focus{background-color: #e6008e;}
